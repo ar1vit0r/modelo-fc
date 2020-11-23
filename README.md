@@ -19,4 +19,6 @@ A entrega do teste deve conter um README informando o que foi utilizado, veja o 
 * PHP 5.4
 * Bootstrap 4
 * jQuery 3
+
+## Tecnologias utilizadas
 * MySQLWorkbench 8
