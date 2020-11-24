@@ -2,10 +2,11 @@
 <html lang="pt-br">
   <head>
     <title>Cadastro de médico</title>
-    <meta charset="utf-8">
+    <meta name="viewport" charset="utf-8" content="width=device-width"></meta>
+    <link rel="stylesheet" type="text/css" href ="/src/model/css/style.css"/>
   </head>
   <body>
-    <form action="med_register_action_page.php">
+    <form method="POST" action="/src/controller/med_register_action_page.php">
       <div class="container">
         <h1>Cadastro de médico</h1>
         <hr>
@@ -22,7 +23,7 @@
         <button type="submit" class="registerbtn">Realizar Cadastro</button>
       </div>
     
-      <div class="container signin">
+      <div class="backtoindex">
         <p><a href="#">Voltar para Página Inicial</a>.</p>
       </div>
     </form>
