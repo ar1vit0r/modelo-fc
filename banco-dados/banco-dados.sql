@@ -20,9 +20,9 @@ USE `banco` ;
 -- -----------------------------------------------------
 -- Table `banco`.`medico`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `banco`.`medico` (
+CREATE TABLE IF NOT EXISTS `banco`.`medicos` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `email` VARCHAR(255) NULL,
+  `email` VARCHAR(50) NULL,
   `nome` VARCHAR(50) NULL,
   `senha` VARCHAR(50) NULL,
   `data_criacao` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -34,7 +34,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `banco`.`horario`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `banco`.`horario` (
+CREATE TABLE IF NOT EXISTS `banco`.`horarios` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_medico` INT NOT NULL,
   `data_horario` DATETIME NULL,

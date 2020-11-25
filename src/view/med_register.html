@@ -4,14 +4,16 @@
     <title>Cadastro de médico</title>
     <meta name="viewport" charset="utf-8" content="width=device-width"></meta>
     <link rel="stylesheet" type="text/css" href ="/src/model/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href ="/src/model/css/med_register.css"/>
   </head>
+  <header></header>
   <body>
-    <form method="POST" action="/src/controller/med_register_action_page.php">
+    <form method="POST" action="/src/controller/med_register.php">
       <div class="container">
         <h1>Cadastro de médico</h1>
         <hr>
         <label for="name"><b>Nome</b></label>
-        <input type="text" placeholder="Repeat Password" name="name" id="name" required>
+        <input type="text" placeholder="Insira o nome do profissional" name="name" id="name" required>
     
         <label for="email"><b>E-mail</b></label>
         <input type="text" placeholder="exemplo@dominio.com.br" name="email" id="email" required>
