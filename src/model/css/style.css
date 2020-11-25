@@ -1,3 +1,5 @@
+*{box-sizing: border-box}
+
 body{
   font-family: 'Signika';
   background-color: #ebe8e8;
@@ -16,11 +18,17 @@ form{
   left: 35%;
 }
 
-* {box-sizing: border-box}
+title{
+  color: #004768;
+}
 
-/* Add padding to containers */
-.container {
-  padding: 16px;
+label{
+  color: #004768;
+}
+
+/* Add a blue text color to links */
+a{
+  color: #0094cf;
 }
 
 /* Full-width input fields */
@@ -40,38 +48,12 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Overwrite default styles of hr */
-hr {
+hr{
   border: 1px solid #ffffff;
   margin-bottom: 25px;
 }
 
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #0094cf;
-  color: white;
-  padding: 16px 20px;
-  margin: 0;
-  border: none;
-  cursor: pointer;
-  width: 40%;
-  opacity: 0.9;
-  position: absolute;
-  top: 77%;
-  left: 30%;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
-/* Add a blue text color to links */
-a {
-  color: #0094cf;
-}
-
-/* Set a grey background color and center the text of the "backtoindex" section */
-.backtoindex {
-  background-color: #ffffff;
-  text-align: center;
-  vertical-align: bottom;
+/* Add padding to containers */
+.container {
+  padding: 16px;
 }
