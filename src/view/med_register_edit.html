@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title></title>
-    <meta charset="utf-8">
+    <title>Editar médico</title>
+    <meta name="viewport" charset="utf-8" content="width=device-width"></meta>
+    <link rel="stylesheet" type="text/css" href ="/src/model/css/style.css"/>
   </head>
+  <header></header>
   <body>
+    <form method="POST" action="/src/controller/med_register_edit.php">
+      <div class="container">
+        <h1>Editar médico</h1>
+        <hr>
+        <label for="name"><b>Nome</b></label>
+        <input type="text" name="name" id="name"></input>
+    
+        <label for="psw"><b>Senha antiga</b></label>
+        <input type="password" placeholder="Insira a senha antiga" name="psw" id="psw" required></input>
+        
+        <label for="newpsw"><b>Nova senha</b></label>
+        <input type="newpassword" placeholder="Escolha uma senha forte e segura" name="newpsw" id="newpsw" required></input>
+        <hr>  
+
+        <button type="submit" class="btn">Atualizar Cadastro</button>
+      </div>
+    
+      <div class="backtoindex">
+        <p><a href="#">Voltar para Página Inicial</a>.</p>
+      </div>
+    </form>
   </body>
 </html>

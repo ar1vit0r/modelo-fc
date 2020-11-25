@@ -18,8 +18,9 @@ form{
   left: 35%;
 }
 
-title{
+h1{
   color: #004768;
+  text-align: center;
 }
 
 label{
@@ -32,7 +33,7 @@ a{
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=newpassword] {
   vertical-align: middle;
   width: 100%;
   padding: 15px;
@@ -42,7 +43,7 @@ input[type=text], input[type=password] {
   background: #ffffff;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=newpassword]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -56,4 +57,30 @@ hr{
 /* Add padding to containers */
 .container {
   padding: 16px;
+}
+
+/* Set a style for the submit/register button */
+.btn {
+  background-color: #0094cf;
+  color: white;
+  padding: 16px 20px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  position: absolute;
+  top: 77%;
+  left: 30%;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Set a grey background color and center the text of the "backtoindex" section */
+.backtoindex {
+  background-color: #ffffff;
+  text-align: center;
+  vertical-align: bottom;
 }
